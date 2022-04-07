@@ -1,0 +1,49 @@
+@font-face {
+    font-family: iconfont;
+    src: url("iconfont.woff2?e565cd4c") format("woff2"),
+             url("iconfont.woff?e565cd4c") format("woff"),
+             url("iconfont.ttf?e565cd4c") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="main-icon"], [class*=" main-icon"] {
+    font-family: 'iconfont' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.main-icon-bookmark::before {
+    content: "\ea01";
+}
+
+.main-icon-calendar::before {
+    content: "\ea02";
+}
+
+.main-icon-camera::before {
+    content: "\ea03";
+}
+
+.main-icon-chat::before {
+    content: "\ea04";
+}
+
+.main-icon-check::before {
+    content: "\ea05";
+}
+
+.main-icon-state-beinvited::before {
+    content: "\ea06";
+}
+
+.main-icon-success::before {
+    content: "\ea07";
+}
+
+.main-icon-warning::before {
+    content: "\ea08";
+}
+
