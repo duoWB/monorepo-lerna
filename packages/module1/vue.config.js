@@ -8,10 +8,10 @@ module.exports = {
       new IconfontPlugin({
         fontName: 'iconfont',
         cssPrefix: 'main-icon',
-        svgs: Path.join(iconDir, 'svgs/*.svg'),
-        fontsOutput: iconOutDir,
-        cssOutput: Path.join(iconOutDir, 'iconfont.css'),
-        htmlOutput: Path.join(iconOutDir, 'preview.html'),
+        svgs: Path.join(__dirname, iconDir, 'svgs/*.svg'),
+        fontsOutput: Path.join(__dirname, iconOutDir),
+        cssOutput: Path.join(__dirname, iconOutDir, 'iconfont.css'),
+        htmlOutput: Path.join(__dirname, iconOutDir, 'preview.html'),
         // jsOutput: Path.join(iconOutDir, 'fonts.js'),
         formats: ['ttf', 'woff', 'woff2']
       }),
